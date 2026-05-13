@@ -116,8 +116,8 @@ The app does **not** read a separate `AI_MODEL` env var; OpenRouter fallback mod
 
 **Keys**
 
-- [Groq console](https://console.groq.com) (free tier with rate limits)
-- [OpenRouter](https://openrouter.ai) (free-tier models used in the fallback chain)
+- [Groq console](https://console.groq.com) 
+- [OpenRouter](https://openrouter.ai) 
 
 ```bash
 npm run dev
