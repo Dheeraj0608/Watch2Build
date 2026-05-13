@@ -12,19 +12,16 @@ Most developers watch tutorials passively. They finish the video, nod along, and
 
 Paste a **YouTube coding tutorial** URL. The app pulls the transcript, runs it through AI, and returns:
 
-| Output | What you get |
-|--------|----------------|
-| **What this actually teaches** | Concrete skills (not “you learn React”) |
-| **What to skip** | Filler or optional sections with **timestamp ranges** — deep-linked to YouTube so you can jump straight there |
-| **Tech stack** | Tools that show up in the tutorial, with what each one does *in this project* |
-| **Architecture** | Short overview + main components |
-| **Build order & roadmap** | Phased milestones, **4–6 hours/day** style estimates (not “video length”), tasks per phase, deliverables |
-| **Checkpoints** | Completion-style signals so you know when a slice is really done |
-| **Beginner traps** | Mistakes people actually hit, with fixes (prompt pushes for specificity + optional `timeToDebug` in the model output) |
-| **Task board** | Every roadmap task as a **kanban** card: To Do → In Progress → Done (client-side, drag between columns) |
-| **Launch** | Deployment checklist + **resume bullet** + **MVP definition** |
-
----
+- What this actually teaches — specific skills, not vague categories.
+- What to skip — filler sections with exact timestamps you can click to jump there on YouTube.
+- Tech stack — every tool detected, with its exact role in the project.
+- Build order — sequenced steps with completion signals so you know when each one is actually done.
+- Beginner traps — the specific errors most people hit, with exact fixes.
+- Roadmap — realistic phases based on 4-6 hours of work per day, not tutorial runtime.
+- Task board — every task as a kanban card you can move from To Do → In Progress → Done.
+- Independent rebuild checklist — tasks to prove you understood it, not just followed along.
+- Deployment checklist — exact commands and service names, not vague steps.
+- Resume bullet — one line you can add to your portfolio after shipping it.
 
 ## Why this and not something else
 
